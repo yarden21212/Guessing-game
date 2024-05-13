@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="RandomShapesController">
+   <children>
+      <HBox prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: Gainsboro;">
+         <children>
+            <Button mnemonicParsing="false" onAction="#btnPressed" prefHeight="88.0" prefWidth="96.0" text="Generate" />
+         </children>
+      </HBox>
+      <Canvas fx:id="canv" height="359.0" width="600.0" />
+   </children>
+</VBox>
